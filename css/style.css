@@ -1,0 +1,44 @@
+body * {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+header {
+  border: 5px solid black;
+  margin: 5px;
+  padding: 10px;
+  /* border-width: 5px;
+  border-style: dotted; */
+}
+
+#intro {
+  border: 3px solid black;
+  margin: 10px;
+}
+
+#education {
+  border: 3px solid black;
+  margin: 10px;
+}
+
+#job {
+  border: 3px solid black;
+  margin: 10px;
+}
+
+#goals {
+  border: 3px solid black;
+  margin: 10px;
+}
+
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
