@@ -5,10 +5,12 @@ console.log('hello js');
 
 let userScore = 0
 
+// ask user name
 let userName = prompt('How about we learn a little bit about you. What is your name?')
 console.log('User\'s name is : ' + userName)
 alert('Welcome ' + userName + '!')
 
+// question 1
 let userGames = prompt('Do you like to play games? (Please answer yes or no)')
 
 if (userGames.toLowerCase() === 'yes') {
@@ -21,6 +23,7 @@ if (userGames.toLowerCase() === 'yes') {
 }
 console.log('User\'s current score is: '+ userScore)
 
+// question 2
 let userAnime = prompt('Do you like to watch anime? (Please answer yes or no)')
 
 if (userAnime.toLowerCase() === 'yes') {
@@ -33,7 +36,7 @@ if (userAnime.toLowerCase() === 'yes') {
 }
 console.log('User\'s current score is: '+ userScore)
 
-
+// question 3
 let userDive = prompt('Have you ever been skydiving? (Please answer yes or no)')
 
 if (userDive.toLowerCase() === 'yes') {
@@ -46,7 +49,7 @@ if (userDive.toLowerCase() === 'yes') {
 }
 console.log('User\'s current score is: '+ userScore)
 
-
+// question 4
 let userMoon = prompt('Have you ever been to the Moon? (Please answer yes or no)')
 
 if (userMoon.toLowerCase() === 'yes') {
@@ -59,6 +62,7 @@ if (userMoon.toLowerCase() === 'yes') {
 }
 console.log('User\'s current score is: '+ userScore)
 
+//question 5
 let userTired = prompt('Are you tired of these questions? (Please answer yes or no)')
 
 if (userTired.toLowerCase() === 'yes') {
@@ -98,6 +102,7 @@ for(let i = 0; i < userAttempts; i++){
 }
 console.log('User\'s current score is: '+ userScore)
 
+// array guessing game
 let arrayGames = ['final fantasy', 'persona', 'halo', 'call of duty'];
 let userGameAttempts = 6;
 let userCorrect = false;
