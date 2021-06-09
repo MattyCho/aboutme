@@ -119,6 +119,10 @@ while (userGameAttempts > 0 && userCorrect == false) {
   console.log('Current value of userGameAttempts: ' + userGameAttempts)
 }
 
+if (userGameAttempts === 0) [
+  alert('Sorry. You ran out of guesses. Better luck next time.')
+]
+
 console.log('User score is ' + userScore)
 alert('Great job! You scored ' + userScore)
 alert('Thank you ' + userName + ' for visiting my site! Enjoy!')
