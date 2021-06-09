@@ -19,26 +19,43 @@ header {
 }
 
 #intro {
+  padding: 5px;
   border: 3px solid black;
   margin: 10px;
 }
 
 #education {
+  padding: 5px;
   border: 3px solid black;
   margin: 10px;
 }
 
 #job {
+  padding: 5px;
   border: 3px solid black;
   margin: 10px;
 }
 
 #goals {
+  padding: 5px;
+  border: 3px solid black;
+  margin: 10px;
+}
+
+ul {
+  padding: 5px;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+#places {
+  padding: 5px;
   border: 3px solid black;
   margin: 10px;
 }
 
 ol {
+  padding: 5px;
   list-style: decimal;
   list-style-position: inside;
 }
