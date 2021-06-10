@@ -3,6 +3,7 @@
 // proof of life
 console.log('hello js');
 
+// Score Counter
 let userScore = 0
 
 // ask user name
@@ -13,10 +14,10 @@ alert('Welcome ' + userName + '!')
 // question 1
 let userGames = prompt('Do you like to play games? (Please answer yes or no)')
 
-if (userGames.toLowerCase() === 'yes') {
+if (userGames.toLowerCase() === 'yes' || userGames.toLowerCase() === 'y') {
   alert('Cool! Me too!')
   userScore++
-} else if (userGames.toLowerCase() === 'no'){
+} else if (userGames.toLowerCase() === 'no' || userGames.toLowerCase() === 'n'){
   alert('Different strokes for different folks')
 } else {
   alert('Please answer yes or no')
@@ -26,10 +27,10 @@ console.log('User\'s current score is: '+ userScore)
 // question 2
 let userAnime = prompt('Do you like to watch anime? (Please answer yes or no)')
 
-if (userAnime.toLowerCase() === 'yes') {
+if (userAnime.toLowerCase() === 'yes' || userGames.toLowerCase() === 'y') {
   alert('Cool! Me too!')
   userScore++
-} else if (userAnime.toLowerCase() === 'no'){
+} else if (userAnime.toLowerCase() === 'no' || userGames.toLowerCase() === 'n'){
   alert('Different strokes for different folks')
 } else {
   alert('Please answer yes or no')
@@ -39,10 +40,10 @@ console.log('User\'s current score is: '+ userScore)
 // question 3
 let userDive = prompt('Have you ever been skydiving? (Please answer yes or no)')
 
-if (userDive.toLowerCase() === 'yes') {
+if (userDive.toLowerCase() === 'yes' || userGames.toLowerCase() === 'y') {
   alert('Wow, that\s impressive!')
   userScore++
-} else if (userDive.toLowerCase() === 'no'){
+} else if (userDive.toLowerCase() === 'no' || userGames.toLowerCase() === 'n'){
   alert('Who\'s crazy enough to do that!?')
 } else {
   alert('Please answer yes or no')
@@ -52,10 +53,10 @@ console.log('User\'s current score is: '+ userScore)
 // question 4
 let userMoon = prompt('Have you ever been to the Moon? (Please answer yes or no)')
 
-if (userMoon.toLowerCase() === 'yes') {
+if (userMoon.toLowerCase() === 'yes' || userGames.toLowerCase() === 'y') {
   alert('Unless you are an astronaut, I don\'t believe you.')
   userScore++
-} else if (userMoon.toLowerCase() === 'no'){
+} else if (userMoon.toLowerCase() === 'no' || userGames.toLowerCase() === 'n'){
   alert('Maybe in the future you\'ll be able to go, if you want.')
 } else {
   alert('Please answer yes or no')
@@ -65,10 +66,10 @@ console.log('User\'s current score is: '+ userScore)
 //question 5
 let userTired = prompt('Are you tired of these questions? (Please answer yes or no)')
 
-if (userTired.toLowerCase() === 'yes') {
+if (userTired.toLowerCase() === 'yes' || userGames.toLowerCase() === 'y') {
   alert('This is the last one, I promise.')
   userScore++
-} else if (userTired.toLowerCase() === 'no'){
+} else if (userTired.toLowerCase() === 'no' || userGames.toLowerCase() === 'n'){
   alert('Well I\'m tired of writing them.')
 } else {
   alert('Please answer yes or no')
