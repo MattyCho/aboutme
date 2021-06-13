@@ -25,42 +25,45 @@ header {
   border-style: dotted; */
 }
 
-#intro {
+main {
+  background-color: #3F72EF;
   padding: 5px;
   border: 3px solid white;
   margin: 10px;
-  background-color: #3F72EF;
 }
 
-#intro img {
+#intro {
+  border: 3px solid white;
+  margin: 5px;
+  padding: 5px;
+}
+
+img {
   width: 100%;
 }
 
 #education {
-  background-color: #3F72EF;
-  padding: 5px;
   border: 3px solid white;
-  margin: 10px;
   float: left;
   width: 32%;
+  margin: 5px;
+  padding: 5px;
 }
 
 #job {
-  background-color: #3F72EF;
-  padding: 5px;
   border: 3px solid white;
-  margin: 10px;
   float: left;
   width: 32%;
+  margin: 5px;
+  padding: 5px;
 }
 
 #goals {
-  background-color: #3F72EF;
-  padding: 5px;
   border: 3px solid white;
-  margin: 10px;
   float: left;
   width: 32%;
+  margin: 5px;
+  padding: 5px;
 }
 
 ul {
@@ -70,11 +73,10 @@ ul {
 }
 
 #places {
-  background-color: #3F72EF;
-  display: inline-block;
-  padding: 5px;
   border: 3px solid white;
-  margin: 10px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
 }
 
 ol {
